@@ -1,0 +1,56 @@
+[{
+  "_id": {
+    "$oid": "6805a9a9bd87f74f16fe1d86"
+  },
+  "name": "Tuyển Argentina",
+  "group": "C"
+},
+{
+  "_id": {
+    "$oid": "6805a9a9bd87f74f16fe1d87"
+  },
+  "name": "Tuyển France",
+  "group": "D"
+},
+{
+  "_id": {
+    "$oid": "6805a9a9bd87f74f16fe1d88"
+  },
+  "name": "Tuyển Brazil",
+  "group": "G"
+},
+{
+  "_id": {
+    "$oid": "6805a9a9bd87f74f16fe1d89"
+  },
+  "name": "Tuyển Germany",
+  "group": "E"
+},
+{
+  "_id": {
+    "$oid": "6805a9a9bd87f74f16fe1d8a"
+  },
+  "name": "Tuyển Spain",
+  "group": "E"
+},
+{
+  "_id": {
+    "$oid": "6805a9a9bd87f74f16fe1d8b"
+  },
+  "name": "Tuyển Japan",
+  "group": "F"
+},
+{
+  "_id": {
+    "$oid": "6805a9a9bd87f74f16fe1d8c"
+  },
+  "name": "Tuyển USA",
+  "group": "B"
+},
+{
+  "_id": {
+    "$oid": "6805a9a9bd87f74f16fe1d8d"
+  },
+  "name": "Tuyển England",
+  "group": "B"
+}]
