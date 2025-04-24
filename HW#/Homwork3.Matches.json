@@ -1,0 +1,60 @@
+[{
+  "_id": {
+    "$oid": "6809a210decf384f58334d83"
+  },
+  "homeTeam": "Brazil",
+  "awayTeam": "France",
+  "resultHome": 2,
+  "resultAway": 1,
+  "referee": "Howard Webb",
+  "location": "Lusail Stadium",
+  "gameType": "Vòng bảng",
+  "matchDate": {
+    "$date": "2026-06-15T18:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6809a210decf384f58334d84"
+  },
+  "homeTeam": "Japan",
+  "awayTeam": "Germany",
+  "resultHome": 0,
+  "resultAway": 3,
+  "referee": "Mark Clattenburg",
+  "location": "Al Bayt Stadium",
+  "gameType": "Vòng bảng",
+  "matchDate": {
+    "$date": "2026-06-16T20:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6809a210decf384f58334d85"
+  },
+  "homeTeam": "Argentina",
+  "awayTeam": "USA",
+  "resultHome": 1,
+  "resultAway": 1,
+  "referee": "Pierluigi Collina",
+  "location": "Education City Stadium",
+  "gameType": "Vòng 1/16",
+  "matchDate": {
+    "$date": "2026-06-20T20:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6809a210decf384f58334d86"
+  },
+  "homeTeam": "Germany",
+  "awayTeam": "Brazil",
+  "resultHome": 1,
+  "resultAway": 2,
+  "referee": "Björn Kuipers",
+  "location": "Stadium 974",
+  "gameType": "Tứ kết",
+  "matchDate": {
+    "$date": "2026-06-24T20:00:00.000Z"
+  }
+}]

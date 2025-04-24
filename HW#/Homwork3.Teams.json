@@ -1,0 +1,54 @@
+[{
+  "_id": {
+    "$oid": "6809a56852f327d761cf5d04"
+  },
+  "name": "Brazil",
+  "flag": "https://example.com/flags/brazil.png",
+  "location": "South America",
+  "gameType": "Worldcup"
+},
+{
+  "_id": {
+    "$oid": "6809a56852f327d761cf5d05"
+  },
+  "name": "France",
+  "flag": "https://example.com/flags/france.png",
+  "location": "Europe",
+  "gameType": "Worldcup"
+},
+{
+  "_id": {
+    "$oid": "6809a56852f327d761cf5d06"
+  },
+  "name": "Japan",
+  "flag": "https://example.com/flags/japan.png",
+  "location": "Asia",
+  "gameType": "Worldcup"
+},
+{
+  "_id": {
+    "$oid": "6809a56852f327d761cf5d07"
+  },
+  "name": "Argentina",
+  "flag": "https://example.com/flags/argentina.png",
+  "location": "South America",
+  "gameType": "Worldcup"
+},
+{
+  "_id": {
+    "$oid": "6809a56852f327d761cf5d08"
+  },
+  "name": "Germany",
+  "flag": "https://example.com/flags/germany.png",
+  "location": "Europe",
+  "gameType": "Worldcup"
+},
+{
+  "_id": {
+    "$oid": "6809a56852f327d761cf5d09"
+  },
+  "name": "USA",
+  "flag": "https://example.com/flags/usa.png",
+  "location": "North America",
+  "gameType": "Worldcup"
+}]

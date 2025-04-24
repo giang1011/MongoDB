@@ -1,0 +1,57 @@
+[{
+  "_id": {
+    "$oid": "6809a3e1ff8b48a9d5659424"
+  },
+  "playerId": {
+    "$oid": "6809a1e3b86deb333499eaf9"
+  },
+  "matchId": {
+    "$oid": "6809a210decf384f58334d83"
+  },
+  "betTime": {
+    "$date": "2025-04-24T02:37:21.668Z"
+  },
+  "prediction": {
+    "predictedHome": 2,
+    "predictedAway": 0
+  },
+  "comment": "Brazil sẽ thắng dễ"
+},
+{
+  "_id": {
+    "$oid": "6809a3e1ff8b48a9d5659425"
+  },
+  "playerId": {
+    "$oid": "6809a1e3b86deb333499eafa"
+  },
+  "matchId": {
+    "$oid": "6809a210decf384f58334d83"
+  },
+  "betTime": {
+    "$date": "2025-04-24T02:37:21.668Z"
+  },
+  "prediction": {
+    "predictedHome": 1,
+    "predictedAway": 2
+  },
+  "comment": "France mạnh hơn!"
+},
+{
+  "_id": {
+    "$oid": "6809a3e1ff8b48a9d5659426"
+  },
+  "playerId": {
+    "$oid": "6809a1e3b86deb333499eaf9"
+  },
+  "matchId": {
+    "$oid": "6809a210decf384f58334d84"
+  },
+  "betTime": {
+    "$date": "2025-04-24T02:37:21.668Z"
+  },
+  "prediction": {
+    "predictedHome": 0,
+    "predictedAway": 2
+  },
+  "comment": "Germany phong độ cao"
+}]

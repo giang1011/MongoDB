@@ -1,0 +1,45 @@
+[{
+  "_id": {
+    "$oid": "6809a1e3b86deb333499eaf8"
+  },
+  "name": "Nguyen Van A",
+  "username": "nguyenvana",
+  "email": "a@gmail.com",
+  "country": "Vietnam"
+},
+{
+  "_id": {
+    "$oid": "6809a1e3b86deb333499eaf9"
+  },
+  "name": "John Smith",
+  "username": "johnsmith",
+  "email": "john@gmail.com",
+  "country": "USA"
+},
+{
+  "_id": {
+    "$oid": "6809a1e3b86deb333499eafa"
+  },
+  "name": "Kazuhiro Tanaka",
+  "username": "kazutanaka",
+  "email": "kazuhiro@example.jp",
+  "country": "Japan"
+},
+{
+  "_id": {
+    "$oid": "6809a1e3b86deb333499eafb"
+  },
+  "name": "Lucas Martin",
+  "username": "lucasm",
+  "email": "lucas@gmail.com",
+  "country": "France"
+},
+{
+  "_id": {
+    "$oid": "6809a1e3b86deb333499eafc"
+  },
+  "name": "Carlos Mendes",
+  "username": "carlitos",
+  "email": "carlos@gmail.com",
+  "country": "Brazil"
+}]
