@@ -1,0 +1,60 @@
+[{
+  "_id": {
+    "$oid": "680b0b0a847b14758bc501f9"
+  },
+  "date": {
+    "$date": "2026-06-14T19:00:00.000Z"
+  },
+  "team1": "Brazil",
+  "team2": "Germany",
+  "score": {
+    "team1": 2,
+    "team2": 1
+  },
+  "stage": "Group G"
+},
+{
+  "_id": {
+    "$oid": "680b0b0a847b14758bc501fa"
+  },
+  "date": {
+    "$date": "2026-06-15T16:00:00.000Z"
+  },
+  "team1": "Argentina",
+  "team2": "Spain",
+  "score": {
+    "team1": 1,
+    "team2": 1
+  },
+  "stage": "Group C"
+},
+{
+  "_id": {
+    "$oid": "680b0b0a847b14758bc501fb"
+  },
+  "date": {
+    "$date": "2026-06-16T18:00:00.000Z"
+  },
+  "team1": "England",
+  "team2": "Japan",
+  "score": {
+    "team1": 3,
+    "team2": 2
+  },
+  "stage": "Group B"
+},
+{
+  "_id": {
+    "$oid": "680b0b0a847b14758bc501fc"
+  },
+  "date": {
+    "$date": "2026-06-17T20:00:00.000Z"
+  },
+  "team1": "France",
+  "team2": "Morocco",
+  "score": {
+    "team1": 0,
+    "team2": 1
+  },
+  "stage": "Group D"
+}]

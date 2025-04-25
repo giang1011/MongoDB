@@ -1,0 +1,36 @@
+[{
+  "_id": {
+    "$oid": "680b0c7cbb1a179cd7427103"
+  },
+  "user_id": {
+    "$oid": "661e9c9fa3c7d9dfb82c1234"
+  },
+  "match_id": {
+    "$oid": "661e9cf0a3c7d9dfb82c5678"
+  },
+  "predicted_score": {
+    "team1": 2,
+    "team2": 2
+  },
+  "submitted_at": {
+    "$date": "2026-06-10T14:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680b0c7cbb1a179cd7427104"
+  },
+  "user_id": {
+    "$oid": "661e9ca1a3c7d9dfb82c2345"
+  },
+  "match_id": {
+    "$oid": "661e9cf1a3c7d9dfb82c6789"
+  },
+  "predicted_score": {
+    "team1": 1,
+    "team2": 0
+  },
+  "submitted_at": {
+    "$date": "2026-06-11T15:00:00.000Z"
+  }
+}]

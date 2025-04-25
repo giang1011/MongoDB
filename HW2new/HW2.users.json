@@ -1,0 +1,33 @@
+[{
+  "_id": {
+    "$oid": "680b0c3b454058626c3d3901"
+  },
+  "username": "minhnguyen",
+  "email": "minh@gmail.com",
+  "favorite_teams": [
+    "Brazil",
+    "Japan"
+  ]
+},
+{
+  "_id": {
+    "$oid": "680b0c3b454058626c3d3902"
+  },
+  "username": "linhpham",
+  "email": "linh@yahoo.com",
+  "favorite_teams": [
+    "Argentina",
+    "France"
+  ]
+},
+{
+  "_id": {
+    "$oid": "680b0c3b454058626c3d3903"
+  },
+  "username": "davidtran",
+  "email": "david@outlook.com",
+  "favorite_teams": [
+    "Germany",
+    "England"
+  ]
+}]

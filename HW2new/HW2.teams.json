@@ -1,0 +1,72 @@
+[{
+  "_id": {
+    "$oid": "680b0b72239ee35ddabaa8e8"
+  },
+  "name": "Tuyển Brazil",
+  "group": "G",
+  "coach": "Tite",
+  "founded_year": 1914
+},
+{
+  "_id": {
+    "$oid": "680b0b72239ee35ddabaa8e9"
+  },
+  "name": "Tuyển Argentina",
+  "group": "C",
+  "coach": "Scaloni",
+  "founded_year": 1893
+},
+{
+  "_id": {
+    "$oid": "680b0b72239ee35ddabaa8ea"
+  },
+  "name": "Tuyển France",
+  "group": "D",
+  "coach": "Didier Deschamps",
+  "founded_year": 1904
+},
+{
+  "_id": {
+    "$oid": "680b0b72239ee35ddabaa8eb"
+  },
+  "name": "Tuyển Germany",
+  "group": "E",
+  "coach": "Julian Nagelsmann",
+  "founded_year": 1900
+},
+{
+  "_id": {
+    "$oid": "680b0b72239ee35ddabaa8ec"
+  },
+  "name": "Tuyển Spain",
+  "group": "F",
+  "coach": "Luis de la Fuente",
+  "founded_year": 1913
+},
+{
+  "_id": {
+    "$oid": "680b0b72239ee35ddabaa8ed"
+  },
+  "name": "Tuyển England",
+  "group": "B",
+  "coach": "Gareth Southgate",
+  "founded_year": 1863
+},
+{
+  "_id": {
+    "$oid": "680b0b72239ee35ddabaa8ee"
+  },
+  "name": "Tuyển Japan",
+  "group": "H",
+  "coach": "Hajime Moriyasu",
+  "founded_year": 1921
+},
+{
+  "_id": {
+    "$oid": "680b0b72239ee35ddabaa8ef"
+  },
+  "name": "Tuyển Morocco",
+  "group": "A",
+  "coach": "Walid Regragui",
+  "founded_year": 1955
+}]
