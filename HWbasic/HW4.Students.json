@@ -1,0 +1,180 @@
+[{
+  "_id": {
+    "$oid": "6817a0d5481c5b6d9dcdc865"
+  },
+  "name": "Irelia",
+  "gender": "female",
+  "courses": [
+    {
+      "courseId": 1,
+      "grade": 6.9
+    },
+    {
+      "courseId": 2,
+      "grade": 4.6
+    }
+  ],
+  "dob": {
+    "$date": "2004-01-01T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6817a0d5481c5b6d9dcdc866"
+  },
+  "name": "Yasuo",
+  "gender": "male",
+  "courses": [
+    {
+      "courseId": 1,
+      "grade": 9.9
+    },
+    {
+      "courseId": 3,
+      "grade": 7.8
+    }
+  ],
+  "dob": {
+    "$date": "2003-01-01T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6817a0d5481c5b6d9dcdc867"
+  },
+  "name": "Agleae",
+  "gender": "male",
+  "courses": [
+    {
+      "courseId": 2,
+      "grade": 5.5
+    },
+    {
+      "courseId": 3,
+      "grade": 5.2
+    }
+  ],
+  "dob": {
+    "$date": "2002-01-01T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6817a0d5481c5b6d9dcdc868"
+  },
+  "name": "Herta",
+  "gender": "female",
+  "courses": [
+    {
+      "courseId": 1,
+      "grade": 10
+    },
+    {
+      "courseId": 2,
+      "grade": 7
+    }
+  ],
+  "dob": {
+    "$date": "2004-01-01T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6817a0d5481c5b6d9dcdc869"
+  },
+  "name": "Yunli",
+  "gender": "male",
+  "courses": [
+    {
+      "courseId": 1,
+      "grade": 8.5
+    },
+    {
+      "courseId": 3,
+      "grade": 9
+    }
+  ],
+  "dob": {
+    "$date": "2003-01-01T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6817a0d5481c5b6d9dcdc86a"
+  },
+  "name": "Anaxa",
+  "gender": "female",
+  "courses": [
+    {
+      "courseId": 2,
+      "grade": 6.5
+    },
+    {
+      "courseId": 3,
+      "grade": 9.82
+    }
+  ],
+  "dob": {
+    "$date": "2005-01-01T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6817a0d5481c5b6d9dcdc86b"
+  },
+  "name": "Alice",
+  "gender": "female",
+  "courses": [
+    {
+      "courseId": 1,
+      "grade": 9
+    },
+    {
+      "courseId": 2,
+      "grade": 7.5
+    }
+  ],
+  "dob": {
+    "$date": "2004-01-01T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6817a0d5481c5b6d9dcdc86c"
+  },
+  "name": "Bob",
+  "gender": "male",
+  "courses": [
+    {
+      "courseId": 1,
+      "grade": 8.5
+    },
+    {
+      "courseId": 3,
+      "grade": 9
+    }
+  ],
+  "dob": {
+    "$date": "2003-01-01T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6817a0d5481c5b6d9dcdc86d"
+  },
+  "name": "Carol",
+  "gender": "female",
+  "courses": [
+    {
+      "courseId": 2,
+      "grade": 2.2
+    },
+    {
+      "courseId": 3,
+      "grade": 5
+    }
+  ],
+  "dob": {
+    "$date": "2005-01-01T00:00:00.000Z"
+  }
+}]

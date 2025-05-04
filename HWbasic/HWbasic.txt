@@ -1,0 +1,121 @@
+db.Courses.insertMany([
+  { _id: 1, name: "Math", credit: 3 },
+  { _id: 2, name: "Physics", credit: 4 },
+  { _id: 3, name: "Chemistry", credit: 3 }
+]);
+
+db.Students.insertMany([
+  {
+    name: "Alice",
+    age: 21,
+    gender: "female",
+    courses: [
+      { courseId: 1, grade: 9 },
+      { courseId: 2, grade: 7.5 }
+    ]
+  },
+  {
+    name: "Bob",
+    age: 22,
+    gender: "male",
+    courses: [
+      { courseId: 1, grade: 8.5 },
+      { courseId: 3, grade: 9 }
+    ]
+  },
+  {
+    name: "Carol",
+    age: 20,
+    gender: "female",
+    courses: [
+      { courseId: 2, grade: 6.5 },
+      { courseId: 3, grade: 9.2 }
+    ]
+  }
+]);
+
+db.Students.aggregate([
+  { $unwind: "$courses" },
+  { $match: { "courses.grade": { $gt: 8 } } },
+  {
+    $lookup: {
+      from: "Courses",
+      localField: "courses.courseId",
+      foreignField: "_id",
+      as: "courseInfo"
+    }
+  },
+  { $unwind: "$courseInfo" },
+  {
+    $project: {
+      name: 1,
+      gender: 1,
+      grade: "$courses.grade",
+      courseName: "$courseInfo.name",
+      courseCredit: "$courseInfo.credit"
+    }
+  }
+]);
+
+db.Students.updateMany({}, [
+  {
+    $set: {
+      dob: {
+        $dateFromParts: {
+          year: { $subtract: [2025, "$age"] },
+          month: 1,
+          day: 1
+        }
+      }
+    }
+  },
+  { $unset: "age" }
+]);
+
+db.Students.aggregate([
+  { $match: { gender: "female" } },
+  {
+    $addFields: {
+      age: {
+        $dateDiff: {
+          startDate: "$dob",
+          endDate: "$$NOW",
+          unit: "year"
+        }
+      }
+    }
+  },
+  { $match: { age: { $lt: 22 } } },
+  {
+    $project: {
+      name: 1,
+      age: 1,
+      gender: 1
+    }
+  }
+]);
+
+db.Students.aggregate([
+  { $match: { gender: "female" } },
+  {
+    $addFields: {
+      age: {
+        $dateDiff: {
+          startDate: "$dob",
+          endDate: "$$NOW",
+          unit: "year"
+        }
+      }
+    }
+  },
+  { $match: { age: 22 } },
+  {
+    $project: {
+      name: 1,
+      age: 1,
+      gender: 1
+    }
+  }
+]);
+
+
