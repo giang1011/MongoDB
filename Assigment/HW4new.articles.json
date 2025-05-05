@@ -1,0 +1,49 @@
+[{
+  "_id": {
+    "$oid": "681824d43c9ec6cacd4e5e94"
+  },
+  "title": "Honkai Star Rail ket hop voi FATE/STAY",
+  "excerpt": "Su colab dang mong cho nhat nam",
+  "thumbnail": "https://presseplay.fr/wp-content/uploads/2025/05/Saber-drip-hsr-3.4.jpg",
+  "content": "Nội dung chi tiết...",
+  "authorId": 1,
+  "categories": [
+    1
+  ],
+  "createdAt": {
+    "$date": "2025-05-01T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "681824d43c9ec6cacd4e5e95"
+  },
+  "title": "Xa thu Smash thay the Gumayusi",
+  "excerpt": "Smash co the thay the Guma..",
+  "thumbnail": "https://th.bing.com/th/id/OIP.wN-aV5LQH-u2W5CgLC7mawHaEG?cb=iwp1&rs=1&pid=ImgDetMain",
+  "content": "Chi tiết bài viết...",
+  "authorId": 2,
+  "categories": [
+    2,
+    3
+  ],
+  "createdAt": {
+    "$date": "2025-05-04T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "681824d43c9ec6cacd4e5e96"
+  },
+  "title": "Ngu qua nhieu",
+  "excerpt": "Buon ngu qua...",
+  "thumbnail": "Buon-ngu.jpg",
+  "content": "chi tiet bai viet...",
+  "authorId": 1,
+  "categories": [
+    1
+  ],
+  "createdAt": {
+    "$date": "2025-05-05T00:00:00.000Z"
+  }
+}]

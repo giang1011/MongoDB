@@ -1,0 +1,85 @@
+db.categories.insertMany([
+  { _id: 1, name: "Thể thao" },
+  { _id: 2, name: "Giáo dục" },
+  { _id: 3, name: "Chính trị" },
+  { _id: 4, name: "Giải trí" },
+  { _id: 5, name: "Công nghệ" }
+]);
+
+
+db.articles.insertMany([
+  {
+    title: "Honkai Star Rail ket hop voi FATE/STAY",
+    excerpt: "Su colab dang mong cho nhat nam",
+    thumbnail: "https://presseplay.fr/wp-content/uploads/2025/05/Saber-drip-hsr-3.4.jpg",
+    content: "Nội dung chi tiết...",
+    authorId: 1,
+    categories: [1],
+    createdAt: new Date("2025-05-01")
+  },
+  {
+    title: "Xa thu Smash thay the Gumayusi",
+    excerpt: "Smash co the thay the Guma..",
+    thumbnail: "https://th.bing.com/th/id/OIP.wN-aV5LQH-u2W5CgLC7mawHaEG?cb=iwp1&rs=1&pid=ImgDetMain",
+    content: "Chi tiết bài viết...",
+    authorId: 2,
+    categories: [2, 3],
+    createdAt: new Date("2025-05-04")
+  },
+  {
+    title: "Ngu qua nhieu",
+    excerpt: "Buon ngu qua...",
+    thumbnail: "Buon-ngu.jpg",
+    content: "chi tiet bai viet...",
+    authorId: 1,
+    categories: [1],
+    createdAt: new Date("2025-05-05")
+  }
+]);
+
+db.articles.find({ categories: 1 }).pretty();
+
+db.articles.find().sort({ createdAt: -1 }).pretty();
+
+db.articles.aggregate([
+  {
+    $group: {
+      _id: "$authorId",
+      totalArticles: { $sum: 1 }
+    }
+  },
+  {
+    $lookup: {
+      from: "authors",
+      localField: "_id",
+      foreignField: "_id",
+      as: "authorInfo"
+    }
+  },
+  { $unwind: "$authorInfo" },
+  {
+    $project: {
+      penName: "$authorInfo.penName",
+      totalArticles: 1
+    }
+  }
+]);
+
+db.articles.aggregate([
+  {
+    $match: {
+      authorId: 1,
+      createdAt: {
+        $gte: new Date("2025-05-01"),
+        $lt: new Date("2025-06-01")
+      }
+    }
+  },
+  {
+    $group: {
+      _id: "$authorId",
+      totalArticles: { $sum: 1 }
+    }
+  }
+]);
+
