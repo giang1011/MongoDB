@@ -1,0 +1,100 @@
+[{
+  "_id": {
+    "$oid": "681859eeaae2e53f7bf1e305"
+  },
+  "avatar": "https://th.bing.com/th/id/OIP.l2ficvm7hqP9i38N2QYB_QHaEK?cb=iwp1&rs=1&pid=ImgDetMain",
+  "name": "Nguyen Van A",
+  "address": {
+    "city": "Ha Noi",
+    "district": "Ba Dinh",
+    "ward": "Phuc Xa",
+    "street": "So 123 duong ABC"
+  },
+  "phone": "0912345678",
+  "messageOriginal": "Dich vu te qua! Nhan vien tho lo.",
+  "messageFiltered": "Dich vu khong tot! Nhan vien khong than thien.",
+  "time": {
+    "$date": "2025-05-05T14:30:00.000Z"
+  },
+  "rate": 3
+},
+{
+  "_id": {
+    "$oid": "681859eeaae2e53f7bf1e306"
+  },
+  "avatar": "https://th.bing.com/th/id/OIP.l2ficvm7hqP9i38N2QYB_QHaEK?cb=iwp1&rs=1&pid=ImgDetMain",
+  "name": "Tran Thi B",
+  "address": {
+    "city": "Ha Noi",
+    "district": "Ba Dinh",
+    "ward": "Truc Bach",
+    "street": "Ngo 12 duong XYZ"
+  },
+  "phone": "0987654321",
+  "messageOriginal": "Thai do phuc vu qua te!",
+  "messageFiltered": "Thai do phuc vu chua tot!",
+  "time": {
+    "$date": "2025-05-04T10:15:00.000Z"
+  },
+  "rate": 3
+},
+{
+  "_id": {
+    "$oid": "681859eeaae2e53f7bf1e307"
+  },
+  "avatar": "https://th.bing.com/th/id/OIP.l2ficvm7hqP9i38N2QYB_QHaEK?cb=iwp1&rs=1&pid=ImgDetMain",
+  "name": "Le Van C",
+  "address": {
+    "city": "Ha Noi",
+    "district": "Dong Da",
+    "ward": "Nam Dong",
+    "street": "So 45 duong Le Duan"
+  },
+  "phone": "0911222333",
+  "messageOriginal": "Rat khong hai long, khong quay lai dau.",
+  "messageFiltered": "Chua hai long, can cai thien them.",
+  "time": {
+    "$date": "2025-05-03T18:45:00.000Z"
+  },
+  "rate": 2
+},
+{
+  "_id": {
+    "$oid": "681859eeaae2e53f7bf1e308"
+  },
+  "avatar": "https://th.bing.com/th/id/OIP.l2ficvm7hqP9i38N2QYB_QHaEK?cb=iwp1&rs=1&pid=ImgDetMain",
+  "name": "Pham Thi D",
+  "address": {
+    "city": "Ha Noi",
+    "district": "Ba Dinh",
+    "ward": "Dien Bien",
+    "street": "Ngo 5 duong Phan Dinh Phung"
+  },
+  "phone": "0909090909",
+  "messageOriginal": "Nhan vien khong chuyen nghiep!",
+  "messageFiltered": "Nhan vien phuc vu chua chuyen nghiep.",
+  "time": {
+    "$date": "2025-05-02T09:00:00.000Z"
+  },
+  "rate": 3
+},
+{
+  "_id": {
+    "$oid": "681859eeaae2e53f7bf1e309"
+  },
+  "avatar": "https://th.bing.com/th/id/OIP.l2ficvm7hqP9i38N2QYB_QHaEK?cb=iwp1&rs=1&pid=ImgDetMain",
+  "name": "Dang Van E",
+  "address": {
+    "city": "Ha Noi",
+    "district": "Hai Ba Trung",
+    "ward": "Le Dai Hanh",
+    "street": "So 8 duong Tran Nhan Tong"
+  },
+  "phone": "0933445566",
+  "messageOriginal": "Khong dang tien, that vong!",
+  "messageFiltered": "Dich vu chua dap ung mong doi.",
+  "time": {
+    "$date": "2025-05-01T20:00:00.000Z"
+  },
+  "rate": 1
+}]
