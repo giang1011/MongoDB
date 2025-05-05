@@ -1,0 +1,28 @@
+[{
+  "_id": {
+    "$oid": "68182e188239968bf8cd394d"
+  },
+  "name": "Electronics",
+  "description": "Phones, laptops, accessories"
+},
+{
+  "_id": {
+    "$oid": "68182e188239968bf8cd394e"
+  },
+  "name": "Fashion",
+  "description": "Clothing and accessories"
+},
+{
+  "_id": {
+    "$oid": "68182e188239968bf8cd394f"
+  },
+  "name": "Home Appliances",
+  "description": "Kitchen and home devices"
+},
+{
+  "_id": {
+    "$oid": "68182e188239968bf8cd3950"
+  },
+  "name": "Books",
+  "description": "Educational and entertainment books"
+}]

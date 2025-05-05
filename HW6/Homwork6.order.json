@@ -1,0 +1,60 @@
+[{
+  "_id": {
+    "$oid": "6818319bf50f23ae59f24758"
+  },
+  "productId": {
+    "$oid": "662ef1a11234567890abcdef"
+  },
+  "quantity": 2,
+  "total": 2399.98,
+  "dateBuy": {
+    "$date": "2025-05-05T09:15:00.000Z"
+  },
+  "buyerName": "Nguyen Van A",
+  "shippingAddress": "mat trang"
+},
+{
+  "_id": {
+    "$oid": "6818319bf50f23ae59f24759"
+  },
+  "productId": {
+    "$oid": "662ef1a1234567890abcdef1"
+  },
+  "quantity": 1,
+  "total": 1299.99,
+  "dateBuy": {
+    "$date": "2025-05-05T14:40:00.000Z"
+  },
+  "buyerName": "Tran Thi B",
+  "shippingAddress": "4DOng thoi gian thieng lieng"
+},
+{
+  "_id": {
+    "$oid": "6818319bf50f23ae59f2475a"
+  },
+  "productId": {
+    "$oid": "662ef1a134567890abcdef12"
+  },
+  "quantity": 3,
+  "total": 449.97,
+  "dateBuy": {
+    "$date": "2025-05-04T17:20:00.000Z"
+  },
+  "buyerName": "Pham Van C",
+  "shippingAddress": "Vu tru khac"
+},
+{
+  "_id": {
+    "$oid": "6818319bf50f23ae59f2475b"
+  },
+  "productId": {
+    "$oid": "662ef1a14567890abcdef123"
+  },
+  "quantity": 5,
+  "total": 99.95,
+  "dateBuy": {
+    "$date": "2025-04-30T12:00:00.000Z"
+  },
+  "buyerName": "Le Thi D",
+  "shippingAddress": "Sao Hoa"
+}]
