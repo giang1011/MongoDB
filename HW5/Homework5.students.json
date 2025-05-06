@@ -1,0 +1,150 @@
+[{
+  "_id": {
+    "$oid": "68197f3b56812023beeab202"
+  },
+  "studentId": "S001",
+  "firstName": "Nguyen",
+  "middleName": "Van",
+  "lastName": "A",
+  "gender": "Male",
+  "registrationNumber": "REG001",
+  "birthday": {
+    "$date": "2000-05-15T00:00:00.000Z"
+  },
+  "grade": 85
+},
+{
+  "_id": {
+    "$oid": "68197f3b56812023beeab203"
+  },
+  "studentId": "S002",
+  "firstName": "Tran",
+  "middleName": "Thi",
+  "lastName": "B",
+  "gender": "Female",
+  "registrationNumber": "REG002",
+  "birthday": {
+    "$date": "2003-07-20T00:00:00.000Z"
+  },
+  "grade": 78
+},
+{
+  "_id": {
+    "$oid": "68197f3b56812023beeab204"
+  },
+  "studentId": "S003",
+  "firstName": "Le",
+  "middleName": "Van",
+  "lastName": "C",
+  "gender": "Male",
+  "registrationNumber": "REG003",
+  "birthday": {
+    "$date": "2001-11-11T00:00:00.000Z"
+  },
+  "grade": 92
+},
+{
+  "_id": {
+    "$oid": "68197f3b56812023beeab205"
+  },
+  "studentId": "S004",
+  "firstName": "Pham",
+  "middleName": "Thi",
+  "lastName": "D",
+  "gender": "Female",
+  "registrationNumber": "REG004",
+  "birthday": {
+    "$date": "2002-03-10T00:00:00.000Z"
+  },
+  "grade": 88
+},
+{
+  "_id": {
+    "$oid": "68197f3b56812023beeab206"
+  },
+  "studentId": "S005",
+  "firstName": "Hoang",
+  "middleName": "Van",
+  "lastName": "E",
+  "gender": "Male",
+  "registrationNumber": "REG005",
+  "birthday": {
+    "$date": "1999-01-25T00:00:00.000Z"
+  },
+  "grade": 70
+},
+{
+  "_id": {
+    "$oid": "68197f3b56812023beeab207"
+  },
+  "studentId": "S006",
+  "firstName": "Nguyen",
+  "middleName": "Thi",
+  "lastName": "F",
+  "gender": "Female",
+  "registrationNumber": "REG006",
+  "birthday": {
+    "$date": "2004-09-12T00:00:00.000Z"
+  },
+  "grade": 95
+},
+{
+  "_id": {
+    "$oid": "68197f3b56812023beeab208"
+  },
+  "studentId": "S007",
+  "firstName": "Do",
+  "middleName": "Van",
+  "lastName": "G",
+  "gender": "Male",
+  "registrationNumber": "REG007",
+  "birthday": {
+    "$date": "2000-12-05T00:00:00.000Z"
+  },
+  "grade": 83
+},
+{
+  "_id": {
+    "$oid": "68197f3b56812023beeab209"
+  },
+  "studentId": "S008",
+  "firstName": "Dam",
+  "middleName": "Duc",
+  "lastName": "Huy",
+  "gender": "Female",
+  "registrationNumber": "REG008",
+  "birthday": {
+    "$date": "2001-08-08T00:00:00.000Z"
+  },
+  "grade": 82
+},
+{
+  "_id": {
+    "$oid": "68197f3b56812023beeab20a"
+  },
+  "studentId": "S009",
+  "firstName": "Vu",
+  "middleName": "Tai",
+  "lastName": "Son",
+  "gender": "Male",
+  "registrationNumber": "REG009",
+  "birthday": {
+    "$date": "1998-06-01T00:00:00.000Z"
+  },
+  "grade": 77
+},
+{
+  "_id": {
+    "$oid": "68197f3b56812023beeab20b"
+  },
+  "studentId": "S010",
+  "firstName": "Hoang",
+  "middleName": "Duy",
+  "lastName": "Hieu",
+  "gender": "Female",
+  "registrationNumber": "REG010",
+  "birthday": {
+    "$date": "2005-02-22T00:00:00.000Z"
+  },
+  "grade": 91
+}]

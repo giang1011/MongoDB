@@ -1,0 +1,116 @@
+db.students.insertMany([
+  {
+    studentId: "S001",
+    firstName: "Nguyen",
+    middleName: "Van",
+    lastName: "A",
+    gender: "Male",
+    registrationNumber: "REG001",
+    birthday: ISODate("2000-05-15T00:00:00Z"),
+    grade: 85
+  },
+  {
+    studentId: "S002",
+    firstName: "Tran",
+    middleName: "Thi",
+    lastName: "B",
+    gender: "Female",
+    registrationNumber: "REG002",
+    birthday: ISODate("2003-07-20T00:00:00Z"),
+    grade: 78
+  },
+  {
+    studentId: "S003",
+    firstName: "Le",
+    middleName: "Van",
+    lastName: "C",
+    gender: "Male",
+    registrationNumber: "REG003",
+    birthday: ISODate("2001-11-11T00:00:00Z"),
+    grade: 92
+  },
+  {
+    studentId: "S004",
+    firstName: "Pham",
+    middleName: "Thi",
+    lastName: "D",
+    gender: "Female",
+    registrationNumber: "REG004",
+    birthday: ISODate("2002-03-10T00:00:00Z"),
+    grade: 88
+  },
+  {
+    studentId: "S005",
+    firstName: "Hoang",
+    middleName: "Van",
+    lastName: "E",
+    gender: "Male",
+    registrationNumber: "REG005",
+    birthday: ISODate("1999-01-25T00:00:00Z"),
+    grade: 70
+  },
+  {
+    studentId: "S006",
+    firstName: "Nguyen",
+    middleName: "Thi",
+    lastName: "F",
+    gender: "Female",
+    registrationNumber: "REG006",
+    birthday: ISODate("2004-09-12T00:00:00Z"),
+    grade: 95
+  },
+  {
+    studentId: "S007",
+    firstName: "Do",
+    middleName: "Van",
+    lastName: "G",
+    gender: "Male",
+    registrationNumber: "REG007",
+    birthday: ISODate("2000-12-05T00:00:00Z"),
+    grade: 83
+  },
+  {
+    studentId: "S008",
+    firstName: "Dam",
+    middleName: "Duc",
+    lastName: "Huy",
+    gender: "Female",
+    registrationNumber: "REG008",
+    birthday: ISODate("2001-08-08T00:00:00Z"),
+    grade: 82
+  },
+  {
+    studentId: "S009",
+    firstName: "Vu",
+    middleName: "Tai",
+    lastName: "Son",
+    gender: "Male",
+    registrationNumber: "REG009",
+    birthday: ISODate("1998-06-01T00:00:00Z"),
+    grade: 77
+  },
+  {
+    studentId: "S010",
+    firstName: "Hoang",
+    middleName: "Duy",
+    lastName: "Hieu",
+    gender: "Female",
+    registrationNumber: "REG010",
+    birthday: ISODate("2005-02-22T00:00:00Z"),
+    grade: 91
+  }
+]);
+
+db.students.find({
+  gender: "Male",
+  grade: { $gt: 80 }
+});
+
+
+const today = new Date();
+const maxBirthday = new Date(today.getFullYear() - 25, today.getMonth(), today.getDate());
+
+db.students.find({
+  gender: "Female",
+  birthday: { $gt: maxBirthday }
+});
