@@ -1,0 +1,145 @@
+
+db.Students.insertMany([
+  {
+    studentId: 1,
+    firstName: "Nguyen",
+    middleName: "Van",
+    lastName: "An",
+    gender: "Male",
+    birthday: ISODate("2002-04-10"),
+    phone: "0123456789",
+    address: "Ha Noi",
+    gpa: 7.0
+  },
+  {
+    studentId: 2,
+    firstName: "Tran",
+    middleName: "Thi",
+    lastName: "Binh",
+    gender: "Female",
+    birthday: ISODate("2005-01-15"),
+    phone: "0987654321",
+    address: "Ha Nam",
+    gpa: 8.0
+  },
+  {
+    studentId: 3,
+    firstName: "Le",
+    middleName: "Minh",
+    lastName: "Hoang",
+    gender: "Male",
+    birthday: ISODate("2000-09-22"),
+    phone: "0978123456",
+    address: "Hoa Binh",
+    gpa: 6.5
+  },
+  {
+    studentId: 4,
+    firstName: "Pham",
+    middleName: "Thi",
+    lastName: "Lan",
+    gender: "Female",
+    birthday: ISODate("2003-12-01"),
+    phone: "0934455667",
+    address: "TP.HCM",
+    gpa: 9.0
+  },
+  {
+    studentId: 5,
+    firstName: "Hoang",
+    middleName: "Van",
+    lastName: "Tuan",
+    gender: "Male",
+    birthday: ISODate("2001-06-30"),
+    phone: "0912345678",
+    address: "Ben Tre",
+    gpa: 7.5
+  },
+  {
+    studentId: 6,
+    firstName: "Do",
+    middleName: "Thi",
+    lastName: "Thao",
+    gender: "Female",
+    birthday: ISODate("2004-07-20"),
+    phone: "0909123456",
+    address: "Long An",
+    gpa: 8.2
+  },
+  {
+    studentId: 7,
+    firstName: "Nguyen",
+    middleName: "Thanh",
+    lastName: "Dat",
+    gender: "Male",
+    birthday: ISODate("1999-11-11"),
+    phone: "0988111222",
+    address: "Da Nang",
+    gpa: 6.8
+  },
+  {
+    studentId: 8,
+    firstName: "Bui",
+    middleName: "Duc",
+    lastName: "Anh",
+    gender: "Male",
+    birthday: ISODate("2003-03-18"),
+    phone: "0966554433",
+    address: "Nha Trang",
+    gpa: 7.2
+  },
+  {
+    studentId: 9,
+    firstName: "Nguyen",
+    middleName: "Thi",
+    lastName: "Mai",
+    gender: "Female",
+    birthday: ISODate("2002-02-02"),
+    phone: "0933445566",
+    address: "Ha Noi",
+    gpa: 9.1
+  },
+  {
+    studentId: 10,
+    firstName: "Pham",
+    middleName: "Quoc",
+    lastName: "Viet",
+    gender: "Male",
+    birthday: ISODate("2000-08-08"),
+    phone: "0977889900",
+    address: "Ha Giang",
+    gpa: 6.9
+  }
+]);
+
+
+db.Students.find({
+  gender: "Male",
+  address: "Ha Noi",
+  birthday: {
+    $lte: new Date(new Date().setFullYear(new Date().getFullYear() - 20))
+  }
+})
+
+db.Students.updateMany(
+  {},
+  [
+    {
+      $set: {
+        gpa: { $round: [{ $multiply: ["$gpa", 1.15] }, 2] }
+      }
+    }
+  ]
+)
+
+db.Students.aggregate([
+  {
+    $project: {
+      _id: 0,
+      fullName: { $concat: ["$firstName", " ", "$middleName", " ", "$lastName"] },
+      gpa: 1
+    }
+  }
+])
+
+

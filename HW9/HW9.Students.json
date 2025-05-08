@@ -1,0 +1,160 @@
+[{
+  "_id": {
+    "$oid": "681c1459a64ee7b8b3166819"
+  },
+  "studentId": 1,
+  "firstName": "Nguyen",
+  "middleName": "Van",
+  "lastName": "An",
+  "gender": "Male",
+  "birthday": {
+    "$date": "2002-04-10T00:00:00.000Z"
+  },
+  "phone": "0123456789",
+  "address": "Ha Noi",
+  "gpa": 8.05
+},
+{
+  "_id": {
+    "$oid": "681c1459a64ee7b8b316681a"
+  },
+  "studentId": 2,
+  "firstName": "Tran",
+  "middleName": "Thi",
+  "lastName": "Binh",
+  "gender": "Female",
+  "birthday": {
+    "$date": "2005-01-15T00:00:00.000Z"
+  },
+  "phone": "0987654321",
+  "address": "Ha Nam",
+  "gpa": 9.2
+},
+{
+  "_id": {
+    "$oid": "681c1459a64ee7b8b316681b"
+  },
+  "studentId": 3,
+  "firstName": "Le",
+  "middleName": "Minh",
+  "lastName": "Hoang",
+  "gender": "Male",
+  "birthday": {
+    "$date": "2000-09-22T00:00:00.000Z"
+  },
+  "phone": "0978123456",
+  "address": "Hoa Binh",
+  "gpa": 7.47
+},
+{
+  "_id": {
+    "$oid": "681c1459a64ee7b8b316681c"
+  },
+  "studentId": 4,
+  "firstName": "Pham",
+  "middleName": "Thi",
+  "lastName": "Lan",
+  "gender": "Female",
+  "birthday": {
+    "$date": "2003-12-01T00:00:00.000Z"
+  },
+  "phone": "0934455667",
+  "address": "TP.HCM",
+  "gpa": 10.35
+},
+{
+  "_id": {
+    "$oid": "681c1459a64ee7b8b316681d"
+  },
+  "studentId": 5,
+  "firstName": "Hoang",
+  "middleName": "Van",
+  "lastName": "Tuan",
+  "gender": "Male",
+  "birthday": {
+    "$date": "2001-06-30T00:00:00.000Z"
+  },
+  "phone": "0912345678",
+  "address": "Ben Tre",
+  "gpa": 8.62
+},
+{
+  "_id": {
+    "$oid": "681c1459a64ee7b8b316681e"
+  },
+  "studentId": 6,
+  "firstName": "Do",
+  "middleName": "Thi",
+  "lastName": "Thao",
+  "gender": "Female",
+  "birthday": {
+    "$date": "2004-07-20T00:00:00.000Z"
+  },
+  "phone": "0909123456",
+  "address": "Long An",
+  "gpa": 9.43
+},
+{
+  "_id": {
+    "$oid": "681c1459a64ee7b8b316681f"
+  },
+  "studentId": 7,
+  "firstName": "Nguyen",
+  "middleName": "Thanh",
+  "lastName": "Dat",
+  "gender": "Male",
+  "birthday": {
+    "$date": "1999-11-11T00:00:00.000Z"
+  },
+  "phone": "0988111222",
+  "address": "Da Nang",
+  "gpa": 7.82
+},
+{
+  "_id": {
+    "$oid": "681c1459a64ee7b8b3166820"
+  },
+  "studentId": 8,
+  "firstName": "Bui",
+  "middleName": "Duc",
+  "lastName": "Anh",
+  "gender": "Male",
+  "birthday": {
+    "$date": "2003-03-18T00:00:00.000Z"
+  },
+  "phone": "0966554433",
+  "address": "Nha Trang",
+  "gpa": 8.28
+},
+{
+  "_id": {
+    "$oid": "681c1459a64ee7b8b3166821"
+  },
+  "studentId": 9,
+  "firstName": "Nguyen",
+  "middleName": "Thi",
+  "lastName": "Mai",
+  "gender": "Female",
+  "birthday": {
+    "$date": "2002-02-02T00:00:00.000Z"
+  },
+  "phone": "0933445566",
+  "address": "Ha Noi",
+  "gpa": 10.46
+},
+{
+  "_id": {
+    "$oid": "681c1459a64ee7b8b3166822"
+  },
+  "studentId": 10,
+  "firstName": "Pham",
+  "middleName": "Quoc",
+  "lastName": "Viet",
+  "gender": "Male",
+  "birthday": {
+    "$date": "2000-08-08T00:00:00.000Z"
+  },
+  "phone": "0977889900",
+  "address": "Ha Giang",
+  "gpa": 7.93
+}]
